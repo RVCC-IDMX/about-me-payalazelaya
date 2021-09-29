@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+    background-color: #2C8271;
+    color: #02006E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Quicksand";
+    font-size: 45pt;
+}
+
+header {
+    text-align: center;
+}
+
+#introduction, footer {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #4547F5;
+    border: 3px solid #cf2b4f;
+    padding: 10px;
+}
+
+#introduction img {
+    width: 350px;
+}
+
+#biography {
+    text-align: center;
+}
