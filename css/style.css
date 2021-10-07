@@ -7,6 +7,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:"Quicksand";
     font-size: 45pt;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 header {
@@ -17,8 +19,9 @@ header {
     text-align: center;
     text-decoration: underline;
     background-color: #4547F5;
-    border: 3px solid #cf2b4f;
-    padding: 10px;
+    border: 5px solid #cf2b4f;
+    padding: 5px;
+    overflow: auto;
 }
 
 #introduction img {
@@ -27,4 +30,23 @@ header {
 
 #biography {
     text-align: center;
+    font-size: 16px;
+}
+
+#hobbies {
+    font-style: italic;
+    background-image: linear-gradient(#46A9FA, #4547F5);
+    border: 7px solid #348704;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px #062E9C;
+    
+}
+
+ul {
+    display: table;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline; 
 }
