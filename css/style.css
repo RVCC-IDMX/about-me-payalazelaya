@@ -20,6 +20,7 @@ header {
     text-align: center;
 }
 
+/* Introduction Section */
 #introduction, footer {
     text-align: center;
     text-decoration: underline;
@@ -33,11 +34,13 @@ header {
     width: 350px;
 }
 
+/* Bio Section */
 #biography {
     text-align: center;
     font-size: 16px;
 }
 
+/* Hobbies Section*/ 
 #hobbies {
     font-style: italic;
     background-image: linear-gradient(#46A9FA, #4547F5);
@@ -54,4 +57,22 @@ ul {
     font-size: 18px;
     text-align: center;
     text-decoration: underline; 
+}
+
+/* Gallery Section */
+#gallery {
+    background-image: linear-gradient(#CF2B4F, #4547F5);
+    border: 5px solid #02006E;
+    border-radius: 5px; 
+    box-shadow: 6px 6px #cf2b4f;
+    margin-bottom: 20px;
+}
+
+#gallery figure {
+    text-align: center;
+    font-style: italic;
+    border: 5px solid #cf2b4f;
+    border-radius: 4px;
+    background-image: radial-gradient(#CF2B4F, #4547F5);
+    overflow: auto;
 }
