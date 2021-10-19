@@ -95,6 +95,7 @@ ul {
     border: 5px double #02006E;
 }
 
+/* Tablet Size Screen */
 @media screen and (min-width: 960px) {
     figure {
         display: grid;
@@ -107,5 +108,9 @@ ul {
         align-items: center;
         font-size: 22px;
         margin-left: 1rem;
+    }
+    #literature div {
+        max-width: 100%;
+        columns: 20rem;
     }
 }
