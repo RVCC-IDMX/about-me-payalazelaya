@@ -110,6 +110,33 @@ ul {
     border-bottom-right-radius: 0.2em;
 }
 
+/* Video Section */
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#myvideo figcaption {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid #02006E;
+    border-radius: 4px;
+    background-image: radial-gradient(#46A9FA, #4547F5);
+}
+
 /* Tablet Size Screen */
 @media screen and (min-width: 960px) {
     figure {
@@ -151,5 +178,5 @@ ul {
 
     figure {
         display: block;
-    }
+    } 
 }
