@@ -22,11 +22,31 @@ main {
 
 /* navbar */
 
+.navbar {
+    background-color:#3D9C06;
+    color:#02006E;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* logo */
 
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 6vw;
+    width: 6vw;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
 
 /* navigation list */
 
