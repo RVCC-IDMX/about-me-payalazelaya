@@ -65,7 +65,7 @@ main {
     display: inline-block;
     color:#02006E;
     background-color: #3D9C06;
-    font-size: 18px;
+    font-size: 2rem;
     padding: 0.5rem 0.5rem;
     letter-spacing: 2px;
     text-decoration: none;
@@ -83,3 +83,14 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+@media screen and (min-width: 60rem) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display:flex;
+        justify-content: space-between;
+    }
+}
