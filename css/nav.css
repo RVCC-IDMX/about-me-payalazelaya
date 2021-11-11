@@ -47,6 +47,7 @@ main {
 
 .logo h1 {
     font-size: 24px;
+    margin-left: 5px;
 }
 
 /* navigation list */
