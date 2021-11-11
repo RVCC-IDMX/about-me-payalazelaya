@@ -70,7 +70,12 @@ main {
     text-decoration: none;
 }
 
-
+.navbar-links a:hover, .navbar-links a:focus{
+    background-color: #02006E;
+    color:#3D9C06;
+    border-radius: 10px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
