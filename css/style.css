@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
     background-color: #2C8271;
-    color: #02006E;
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,12 +27,25 @@ header {
     text-decoration: underline;
     background-color: #4547F5;
     border: 5px solid #cf2b4f;
-    padding: 5px;
+    color: white;
+    padding: 10px;
     overflow: auto;
 }
 
 #introduction img {
     width: 350px;
+}
+
+#introduction a:link{
+    color:beige;
+}
+
+#introduction a:hover {
+    color: lightgray;
+}
+
+#introduction a:visited {
+    color: white;
 }
 
 /* Bio Section */
@@ -44,11 +57,10 @@ header {
 /* Hobbies Section*/ 
 #hobbies {
     font-style: italic;
-    background-image: linear-gradient(#46A9FA, #4547F5);
-    border: 7px solid #348704;
+    background-color:#81CDFF;
+    border: 7px solid #1a4600;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 6px 6px #062E9C;
     
 }
 
@@ -63,7 +75,7 @@ header {
 
 /* Gallery Section */
 #gallery {
-    background-image: linear-gradient(#CF2B4F, #4547F5);
+    background-color:#C74C98;
     border: 5px solid #02006E;
     border-radius: 5px; 
     box-shadow: 6px 6px #cf2b4f;
@@ -73,18 +85,19 @@ header {
 #gallery figure {
     text-align: center;
     font-style: italic;
-    border: 5px solid #cf2b4f;
+    border: 5px solid #02006E;
     border-radius: 4px;
-    background-image: radial-gradient(#CF2B4F, #4547F5);
+    background-color: #8889FA;
     overflow: auto;
 }
 
 /* Literature Story Section */
 #literature {
-    background-image: linear-gradient(#348704, #4547F5);
-    border: 6px solid #4547F5;
+    background-color: #286903;
+    color: #EDF4FF;
+    border: 6px solid #02006E;
     border-radius: 5px;
-    box-shadow: 6px 6px #02006E;
+    box-shadow: 6px 6px #fff;
     margin-bottom: 20px;
 }
 
@@ -132,9 +145,9 @@ header {
 #myvideo figcaption {
     text-align: center;
     margin-top: 10px;
-    border: 2px solid #02006E;
+    border: 3px solid #02006E;
     border-radius: 4px;
-    background-image: radial-gradient(#46A9FA, #4547F5);
+    background-color: #46A9FA;
 }
 
 /* Contact Form Section */
@@ -230,12 +243,13 @@ button[type=submit]:hover {
 }
 
 #contact #formelements fieldset {
-    background-color:#2C8271;
-    color: lightgray;
+    background-color:#36a58f;
+    color: black;
     font-size: 17px;
 }
 
 #contact {
+    color: 0D0D0D;
     padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
@@ -249,7 +263,7 @@ button[type=submit]:hover {
     padding: 5px;
 }
 #contact div {
-    background-image: linear-gradient(#36AA93,#062E9C);
+    background-color: #74a59b;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 3px white;
 }
