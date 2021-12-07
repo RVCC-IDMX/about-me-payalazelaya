@@ -22,36 +22,21 @@ header {
 }
 
 /* Introduction Section */
-#introduction, footer {
-    text-align: center;
-    text-decoration: underline;
-    background-color: #4547F5;
-    border: 5px solid #cf2b4f;
-    color: white;
-    padding: 10px;
-    overflow: auto;
-}
-
 #introduction img {
-    width: 350px;
-}
-
-#introduction a:link{
-    color:beige;
-}
-
-#introduction a:hover {
-    color: lightgray;
-}
-
-#introduction a:visited {
-    color: white;
+    width: 100%;
+    height: 100%;
 }
 
 /* Bio Section */
 #biography {
     text-align: center;
     font-size: 16px;
+    background-color: cornflowerblue;
+    border: 5px solid #02006E;
+    width: 800px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Hobbies Section*/ 
@@ -61,7 +46,7 @@ header {
     border: 7px solid #1a4600;
     border-radius: 10px;
     margin-bottom: 20px;
-    
+    width: 250px;
 }
 
 #hobbies ul {
@@ -90,42 +75,7 @@ header {
     background-color: #8889FA;
     overflow: auto;
 }
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.images:hover .image {
-    opacity: 0.3;
-}
-
-.images:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: lightpink;
-    color: black;
-    font-size: 22px;
-    padding: 16px 32px;
-}
-
+ 
 
 /* Literature Story Section */
 #literature {
@@ -311,6 +261,16 @@ button[type=submit]:hover {
 
 #contact ul li {
     margin: 20px;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #4547F5;
+    border: 4px solid #cf2b4f;
+    color: white;
+    text-align: center;
 }
 
 /* Tablet Size Screen */
