@@ -23,6 +23,7 @@ header {
 
 /* Introduction Section */
 .container {
+    position: relative;
     color:black;
     text-align: center;
 }
@@ -51,7 +52,7 @@ header {
 }
 
 #biography img {
-    border: 2px solid #02006E;
+    border: 5px double #02006E;
 }
 
 /* Hobbies Section*/ 
@@ -85,12 +86,20 @@ header {
 #gallery figure {
     text-align: center;
     font-style: italic;
-    border: 5px solid #02006E;
-    border-radius: 4px;
     background-color: #8889FA;
     overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
- 
+.realpicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color:#8889FA;
+    margin-bottom: 25px;
+}
 
 /* Blog Section */
 #blog {
@@ -293,9 +302,9 @@ footer {
 @media screen and (min-width: 960px) {
     figure {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
-
+ 
     figcaption {
         display: flex;
         justify-content: center;
@@ -303,10 +312,11 @@ footer {
         font-size: 22px;
         margin-left: 1rem;
     }
-
+ 
     figure img {
         width: 100%;
     }
+ 
 
     #blog div {
         max-width: 100%;
