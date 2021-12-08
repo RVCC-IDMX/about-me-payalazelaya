@@ -89,9 +89,9 @@ header {
 }
  
 
-/* Literature Story Section */
-#literature {
-    background-color: #286903;
+/* Blog Section */
+#blog {
+    background-color: #1a4600;
     color: #EDF4FF;
     border: 6px solid #02006E;
     border-radius: 5px;
@@ -99,14 +99,14 @@ header {
     margin-bottom: 20px;
 }
 
-#literature div {
+#blog div {
     max-width: 580px;
     margin: 0 auto;
     font-weight: lighter;
     border: 5px double #000000;
 }
 
-#literature div p:first-child::first-letter {
+#blog div p:first-child::first-letter {
     color:#02006E;
     background-image:radial-gradient(#fff, #4547F5);
     float: left;
@@ -304,7 +304,7 @@ footer {
         width: 100%;
     }
 
-    #literature div {
+    #blog div {
         max-width: 100%;
         columns: 20rem;
     }
