@@ -22,12 +22,12 @@ header {
 }
 
 /* Introduction Section */
-.introduction {
+.container {
     color:black;
     text-align: center;
 }
 
-.introduction h1 {
+.container h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +35,7 @@ header {
     border: 2px solid black;
 }
 
-.introduction img {
+.container img {
     max-width: 100%;
 }
 
@@ -45,10 +45,13 @@ header {
     font-size: 16px;
     background-color: cornflowerblue;
     border: 5px solid #02006E;
-    width: 800px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#biography img {
+    border: 2px solid #02006E;
 }
 
 /* Hobbies Section*/ 
@@ -146,6 +149,7 @@ header {
     border: 3px solid #02006E;
     border-radius: 4px;
     background-color: #46A9FA;
+    height: 50px;
 }
 
 /* Contact Form Section */
