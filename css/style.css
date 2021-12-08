@@ -4,7 +4,7 @@ body {
     color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-family:"Quicksand";
     font-size: 45pt;
     text-align: center;
@@ -12,13 +12,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+    font-family: "Quicksand";
     font-size: 35pt;
+    text-align: center;
     padding-bottom: 3px;
     margin: .1em;
-}
-
-header {
-    text-align: center;
 }
 
 /* Introduction Section */
@@ -29,6 +27,14 @@ header {
 }
 
 .container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: cornsilk;
+    border: 2px solid black;
+}
+
+.container p {
     position: absolute;
     top: 50%;
     left: 50%;
