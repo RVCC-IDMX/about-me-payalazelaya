@@ -19,7 +19,7 @@ For the navigation bar on top, I learned how to do "vegetarian mode" at first. I
 ##### Hobbies
 **With the _ _hobbies_ _ section,** I've used lists to mention what some of my hobbies are, but what differentiates from my original hobbies section is how I included a picture of one of my hobbies and a mini description of it. 
 ##### Gallery 
-**The _ _photo galllery_ _** has been where I've used grid to be able to transform the gallery into columns in different media states. 
+**The _ _photo galllery_ _** has been where I've used grid to be able to transform the gallery into columns in different media states. Being able to use grid so that it could make my website more interesting was something that I put more attention to than anything else. 
 ##### Blog
 In my blog section, I changed the topic of the blog from it being a sample Lorem Ipsum text from Dracula to it being about CSS image sprites. In the new blog topic, I go into depth of what image sprites are and what are their functions in general. 
 ##### Video
@@ -29,18 +29,19 @@ In my blog section, I changed the topic of the blog from it being a sample Lorem
 ##### Color Schemes in my Website
 Throughout my website, I have incorporated many colors that prove to be accessible for those who experience color blindness for example. In particular, I've also looked into colors that are not too bright for a user to see. Bright colors have been difficult for me to see personally when I came across them on websites, so I don't want for users to experience that kind of difficulty either. 
 My color scheme consists of these colors primarily: 
-- #02006E (Navy Blue)
-- #CF2B4F (Bright Light Red)
-- #4547F5 (Bright Periwinkle)
-- #348704 (Light Green)
-- #2C8271 (Turquoise)
+- #02006E rgb(2,0,110) (Navy Blue)
+- #CF2B4F rgb(207,43,79) (Bright Light Red)
+- #4547F5 rgb(69,71,245) (Bright Periwinkle)
+- #348704 rgb(52,135,4) (Light Green)
+- #2C8271 rgb(44,130,113) (Turquoise)
 Extra colors that I included as well are 
-- #000000 (Black)
-- #1A4600 (Dark Green)
-- #36A58F (Bright Light Turquoise)
-- #46A9FA (Bright Sky Blue)
-- #74A59B (Light Mint Green)
-- #81CDFF (Light Blue)
-- #8889FA (Light Lavender)
-- #C74C98 (Light Bright Pink)
-- #6495ED (Light Sky Blue)
+- #000000 rgb(0,0,0)(Black)
+- #1A4600 rgb(26,70,0) (Dark Green)
+- #36A58F rgb(54,165,143) (Bright Light Turquoise)
+- #46A9FA rgb(70,169,250) (Bright Sky Blue)
+- #74A59B rgb(116,165,155) (Light Mint Green)
+- #81CDFF rgb(129,205,255) (Light Blue)
+- #8889FA rgb(136,137,250) (Light Lavender)
+- #C74C98 rgb(199,76,152) (Light Bright Pink)
+- #6495ED rgb(100,149,237) (Light Sky Blue)
+- #FFFFFF rgb(255,255,255) (White)
