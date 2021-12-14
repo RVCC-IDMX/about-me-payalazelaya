@@ -107,8 +107,6 @@ h2 {
 
 /* Gallery Section */
 #gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     background-color:#C74C98;
@@ -367,7 +365,7 @@ footer {
 @media screen and (min-width: 100em) {
     #gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     hr {

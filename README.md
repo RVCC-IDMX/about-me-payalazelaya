@@ -17,15 +17,15 @@ For the navigation bar on top, I learned how to do "vegetarian mode" at first. I
 ##### Biography
 **With the _ _biography_ _,** I expanded upon my original biography to make a detailed version of why I wanted to pursue web development as a career instead of my previous choice, computer science. I also included another picture of me as well but it acts like a profile picture instead for how small it looks like. 
 ##### Hobbies
-**With the _ _hobby_ _ section,** I have been able to use (insert). 
+**With the _ _hobbies_ _ section,** I've used lists to mention what some of my hobbies are, but what differentiates from my original hobbies section is how I included a picture of one of my hobbies and a mini description of it. 
 ##### Gallery 
 **The _ _photo galllery_ _** has been where I've used grid to be able to transform the gallery into columns in different media states. 
 ##### Blog
-In my blog section,  
+In my blog section, I changed the topic of the blog from it being a sample Lorem Ipsum text from Dracula to it being about CSS image sprites. In the new blog topic, I go into depth of what image sprites are and what are their functions in general. 
 ##### Video
-**In my _ _video section_ _,** ,aking my video through Windows Movie Maker 
+**In my _ _video section_ _,** , I was able to make a short video through Windows Movie Maker and be able to embed it into my website through iFrame. The video is about pictures of cats followed one after the other, along with the audio being cats meowing. At the bottom of it, I also have a caption that gives a general idea of what the video is about too.  
 ##### Contact Form 
-**In my _ _contact form_ _ section,** making my contact form required 
+**In my _ _contact form_ _ section,** making the contact form was a new experience for me when it came to making it from scratch essentially. For the input values of the form, they would be connected with Netlify in being there where any information that was submitted would end up being at. Highlighting and having messages visible to the user in letting them know what input works for each section of the form was also interesting to code as well. 
 ##### Color Schemes in my Website
 Throughout my website, I have incorporated many colors that prove to be accessible for those who experience color blindness for example. In particular, I've also looked into colors that are not too bright for a user to see. Bright colors have been difficult for me to see personally when I came across them on websites, so I don't want for users to experience that kind of difficulty either. 
 My color scheme consists of these colors primarily: 
