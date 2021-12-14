@@ -25,7 +25,8 @@ h2 {
 
 /* Introduction Section */
 #introduction {
-    background-color: #4547F5;
+    background-image: url(/img/mosaic-1920w.jpg);
+    background-size: 100%;
     border: 5px solid black;
     color:#fff;
     padding: 0.5rem 0.5rem;
@@ -34,11 +35,17 @@ h2 {
 
 #introduction h1 {
     margin: 5px;
+    background-color:#EDF4FF;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 #introduction h6 {
     font-size: 18px;
     margin: 5px;
+    background-color: #EDF4FF;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 #introduction img {
