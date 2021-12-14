@@ -34,7 +34,7 @@ My color scheme consists of these colors primarily:
 - #4547F5 rgb(69,71,245) (Bright Periwinkle)
 - #348704 rgb(52,135,4) (Light Green)
 - #2C8271 rgb(44,130,113) (Turquoise)
-Extra colors that I included as well are: 
+> Extra colors that I included as well are: 
 - #000000 rgb(0,0,0)(Black)
 - #1A4600 rgb(26,70,0) (Dark Green)
 - #36A58F rgb(54,165,143) (Bright Light Turquoise)
