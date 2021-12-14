@@ -79,6 +79,10 @@ main {
     outline: none;
 }
 
+/* media query for mobile nav bar */
+@media screen and (max-width: 960px) {
+    .navbar 
+}
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
