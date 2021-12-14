@@ -16,6 +16,7 @@ The photo galllery has been where I've used grid to be able to transform the gal
 In my blog, 
 ###### Video
 Making my video through Windows Movie Maker 
-
+###### Contact Form 
+Making my contact form required 
 ###### Color Schemes
-Throughout my website, I have incorporated many colors that prove to be accessible for those who experience color blindness for example. In particular, I've also looked into colors that are not too bright for a user to see. 
+Throughout my website, I have incorporated many colors that prove to be accessible for those who experience color blindness for example. In particular, I've also looked into colors that are not too bright for a user to see. Bright colors have been difficult for me to see personally when I came across them on websites, so I don't want for users to experience difficulty either. 
