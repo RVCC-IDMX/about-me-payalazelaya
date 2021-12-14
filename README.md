@@ -51,6 +51,8 @@ My color scheme consists of these colors primarily:
 - [Google Fonts](https://fonts.google.com/)
 - [Mobile Nav Bar Code](https://www.youtube.com/watch?v=SIzi9z8mrTk)
 - [Mosaic Background](https://pixabay.com/images/id-3394375/)
+- [X Icon](https://www.iconfinder.com/icons/1110973/close_essential_set_x_icon)
+- [Hamburger Menu Icon](https://www.iconfinder.com/icons/134216/menu_lines_hamburger_icon)
 ## License 
 Copyright © 2021 Paola Ayala Zelaya 
 
