@@ -75,6 +75,7 @@ h2 {
     margin: auto;
     font-size: 18px;
     text-decoration: underline; 
+    list-style: none;
 }
 
 #hobbies hr {
