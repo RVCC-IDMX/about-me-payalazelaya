@@ -20,29 +20,17 @@ h2 {
 }
 
 /* Introduction Section */
-.container {
-    position: relative;
-    color:black;
-    text-align: center;
+#introduction {
+    background-color: #4547F5;
+    color:#fff;
+    padding: 1rem 2rem;
+    max-height: 100%;
 }
 
-.container h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: cornsilk;
-    border: 2px solid black;
+#introduction h6 {
+    font-size: 18px;
 }
-
-.container p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: cornsilk;
-    border: 2px solid black;
-}
-
-.container img {
+#introduction img {
     max-width: 100%;
 }
 
