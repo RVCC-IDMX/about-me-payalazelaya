@@ -26,10 +26,12 @@ h2 {
 /* Introduction Section */
 #introduction {
     background-image: url(/img/mosaic-1920w.jpg);
+    color:#fff;
     background-size: 100%;
     background-position: 100%;
-    border: 5px solid black;
-    color:#fff;
+    border: 6px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px #81CDFF;
     padding: 0.5rem 0.5rem;
     margin: 20px;
 }
@@ -67,7 +69,9 @@ h2 {
     text-align: center;
     font-size: 16px;
     background-color: #6495ed;
-    border: 5px solid #02006E;
+    border: 7px solid #02006E;
+    box-shadow: 6px 6px #C74C98;
+    border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -82,6 +86,7 @@ h2 {
     font-style: italic;
     background-color:#81CDFF;
     border: 7px solid #1a4600;
+    box-shadow: 6px 6px #46A9FA;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -110,6 +115,7 @@ h2 {
 #hobbies p {
     text-align: center;
     font-size: 18px;
+    white-space: normal;
 }
 
 /* Gallery Section */
@@ -117,8 +123,8 @@ h2 {
     align-items: center;
     justify-items: center;
     background-color:#C74C98;
-    border: 5px solid #02006E;
-    border-radius: 5px; 
+    border: 6px solid #02006E;
+    border-radius: 10px; 
     box-shadow: 6px 6px #cf2b4f;
     margin-bottom: 20px;
 }
@@ -139,11 +145,14 @@ h2 {
 
 .pictureframe {
     display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
     width: 80%;
     background-color:#8889FA;
-    margin-bottom: 25px;
 }
 
 .fadein img{
@@ -161,7 +170,7 @@ h2 {
     background-color: #1a4600;
     color: #EDF4FF;
     border: 6px solid #02006E;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 6px 6px #fff;
     margin-bottom: 20px;
 }
@@ -210,8 +219,8 @@ h2 {
 #myvideo figcaption {
     text-align: center;
     font-size: 26px;
-    border: 3px solid #02006E;
-    border-radius: 4px;
+    border: 5px solid #02006E;
+    border-radius: 5px;
     background-color: #46A9FA;
     height: 50px;
 }
@@ -330,8 +339,9 @@ button[type=submit]:hover {
 }
 #contact div {
     background-color: #74a59b;
+    border: 5px solid #EDF4FF;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 3px white;
+    box-shadow: 6px 6px #1a4600;
 }
 
 #contact ul {
@@ -348,7 +358,8 @@ footer {
     width: 100%;
     padding: 10px;
     background-color: #4547F5;
-    border: 4px solid #cf2b4f;
+    border: 6px solid #cf2b4f;
+    border-radius: 10px;
     color: white;
     text-align: center;
 }
