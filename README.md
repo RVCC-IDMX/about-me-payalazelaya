@@ -3,9 +3,15 @@ Hi, I'm **Paola Ayala Zelaya** and this is my About Me Website!
 ###### Netlify Status Badge
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b6fb59c7-9e37-46af-b97f-04ba1f5f5098/deploy-status)](https://app.netlify.com/sites/about-me-payalazelaya/deploys)
 ###### Description
-With this project being an _ _About Me_ _ website, I have learned many skills about each part of the website. It has ranged from being able to learn about flex and grid to being aware about color accesibility to then being capable of styling elements properly. In the following, I go more into detail in what I've learned in each section of my website. 
+With this project being an _ _About Me_ _ website, I have learned many skills about each part of the website. It has ranged from: 
+ - Learning about Good Design Principles in Web Design
+ - Learning about flex and grid
+ - Being aware about color accesibility 
+ - Being capable of styling elements properly with CSS 
+ ` Using basic HTML to create sections of a website
+ In the following, I go more into detail in what I've learned in each section of my website. 
 ##### Navigation
-For the navigation bar on top, I learned how to do "vegetarian mode" at first. In "vegetarian mode", the navbar resembles that of regular navbars on other websites, where each link is next to each other sequentially. In different media states, 
+For the navigation bar on top, I learned how to do "vegetarian mode" at first. In "vegetarian mode", the navbar resembles that of regular navbars on other websites, where each link is next to each other sequentially. In different media states, the navbar would collapse and each link would stack upon one another. Then, when it came to making the navbar more interactive, "hamburger mode" was used instead for the mobile media state where the user can click and collapse the menu easily. 
 ##### Introduction
 For the introduction, (insert). 
 ##### Biography
