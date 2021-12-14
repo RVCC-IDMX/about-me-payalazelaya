@@ -33,7 +33,7 @@ My color scheme consists of these colors primarily:
 - #CF2B4F rgb(207,43,79) (Bright Light Red)
 - #4547F5 rgb(69,71,245) (Bright Periwinkle)
 - #348704 rgb(52,135,4) (Light Green)
-- #2C8271 rgb(44,130,113) (Turquoise) ![Turquoise](https://github.com/RVCC-IDMX/about-me-payalazelaya/blob/main/assets/img/2C8271.png)
+- #2C8271 rgb(44,130,113) (Turquoise)
 Extra colors that I included as well are: 
 - #000000 rgb(0,0,0)(Black)
 - #1A4600 rgb(26,70,0) (Dark Green)
