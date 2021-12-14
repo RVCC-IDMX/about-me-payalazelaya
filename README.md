@@ -46,6 +46,11 @@ Extra colors that I included as well are:
 - #6495ED rgb(100,149,237) (Light Sky Blue)
 - #FFFFFF rgb(255,255,255) (White)
 ## Citations 
+[Basic Github Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[W3Schools](https://www.w3schools.com/)
+[Google Fonts](https://fonts.google.com/)
+[Mobile Nav Bar Code](https://www.youtube.com/watch?v=SIzi9z8mrTk)
+[Mosaic Background](https://pixabay.com/images/id-3394375/)
 ## License 
 Copyright © 2021 Paola Ayala Zelaya 
 
