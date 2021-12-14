@@ -37,6 +37,12 @@ h2 {
     margin: 5px;
 }
 
+#introduction img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+}
 
 /* Bio Section */
 #biography {
@@ -69,6 +75,22 @@ h2 {
     margin: auto;
     font-size: 18px;
     text-decoration: underline; 
+}
+
+#hobbies hr {
+    border: 1px dashed #000000;
+}
+
+#hobbies img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+}
+
+#hobbies p {
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Gallery Section */
