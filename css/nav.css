@@ -80,65 +80,65 @@ main {
 }
 
 /* CSS for Mobile Nav Bar */
-body {
-    font-family: Roboto;
-    font-weight: 700;
-    color: #000000;
-    height: 100vh;
-}
 
-.nav {
-    border-bottom: 1px solid gray;
-}
-
-.nav-toggle {
-    position: absolute;
-    cursor: pointer;
-    margin: 0rem 1rem;
-    right: 0;
-}
-
-svg {
-    width: 1.5rem;
-}
-
-.close {
-    display: none;
-}
-
-.menu {
-    margin-top: 0.2rem;
-}
-
-.nav-checkbox{
-    display: none;
-}
-
-.nav-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    margin: 1rem;
-}
-
-li {
-    list-style: none;
-}
-
-.nav-menu:first-child {
-    margin-right: auto;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 24px;
-}
 
 /* media query for mobile nav bar */
 @media screen and (max-width: 960px) {
-    .navbar 
+    body {
+        font-family: Roboto;
+        font-weight: 700;
+        color: #000000;
+        height: 100vh;
+    }
+    
+    .nav {
+        border-bottom: 1px solid gray;
+    }
+    
+    .nav-toggle {
+        position: absolute;
+        cursor: pointer;
+        margin: 0rem 1rem;
+        right: 0;
+    }
+    
+    svg {
+        width: 1.5rem;
+    }
+    
+    .close {
+        display: none;
+    }
+    
+    .menu {
+        margin-top: 0.2rem;
+    }
+    
+    .nav-checkbox{
+        display: none;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .nav-menu:first-child {
+        margin-right: auto;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 24px;
+    }
 }
 /* 
 media query for non-mobile nav bar
