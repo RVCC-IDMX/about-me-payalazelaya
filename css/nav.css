@@ -100,7 +100,6 @@ body {
 
 svg {
     width: 1.5rem;
-    fill: gray;
 }
 
 .close {
@@ -123,12 +122,12 @@ svg {
     margin: 1rem;
 }
 
-.nav-menu:first-child{
-    margin-right: auto;
-}
-
 li {
     list-style: none;
+}
+
+.nav-menu:first-child {
+    margin-right: auto;
 }
 
 a {
