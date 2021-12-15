@@ -409,6 +409,14 @@ footer {
     text-align: center;
 }
 
+footer a:link {
+    color:#fff;
+}
+
+footer a:visited{
+    color:#81CDFF;
+}
+
 /* Tablet Size Screen */
 @media screen and (min-width: 960px) {
     figure {
