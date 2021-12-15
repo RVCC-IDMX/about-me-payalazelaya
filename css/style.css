@@ -111,6 +111,10 @@ h3 {
     border: 1px dashed #000000;
 }
 
+#hobbies figure {
+    overflow: auto;
+}
+
 #hobbies img {
     display: block;
     margin-left: auto;
@@ -263,7 +267,7 @@ h3 {
 
 #myvideo figcaption {
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     border: 5px solid #02006E;
     border-radius: 5px;
     background-color: #46A9FA;
