@@ -56,6 +56,7 @@ My color scheme consists of these colors primarily:
 > Sources Used for the Blog Section
 - [WPDataTables](https://wpdatatables.com/css-image-hover-effects/)
 - [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
+- [Web Design Dev](https://www.webdesigndev.com/image-hover-effects-made-with-css3/)
 ## License 
 Copyright © 2021 Paola Ayala Zelaya 
 

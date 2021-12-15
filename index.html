@@ -151,11 +151,13 @@ avatar of myself to illustrate a fun and cute persona that resembles me. -->
         </div>
     </section>
 
-    <!-- In the blog section,  -->
+    <!-- In the blog section, it talks about how to create a basic image hover effect with CSS,
+    which in this case would be a sliding overlay that comes from the top of an image. -->
     <article id="blog">
         <h2>CSS Image Hover Effects</h2>
             <div>
-                <p>When it comes to image hover effects, they add visual effects to an image on a website. It also brings interactivity to the user in seeing what kind of effects there could be for the image.
+                <h3>Effect Will Not Work on Mobile!</h3>
+                <p>When it comes to image hover effects, they add visual effects to an image on a website. It also brings interactivity to the user in seeing what kind of effects there could be for an image.
                 This interactivity influences how a user is able to be engaged in a website and encourages their focus to explore what the website has to offer. At the same time, it lets the user
                 have some kind of fun experience in playing around with the image hover effect the image has in the website. Animations in general are fun to use when it comes to adding interactivity and visual 
                 appeal to a website, but a developer has to make sure that using too many animations can slow down a website heavily if it's used excessively nor properly. This is why image hover effects are a kind of 
@@ -165,11 +167,25 @@ avatar of myself to illustrate a fun and cute persona that resembles me. -->
                 for a developer. There are numerous ways images, in general, can have effects to them, ranging from zooming in and outwards, having a blurry effect to it, and rotating in and out. For this blog, I will talk about some of the basic
                 image hover effects that are standard in websites. These image hover effects come in different ways on how to incorporate them into websites. The basic image hover effects most common in websites are fading in with text, 
                 fading in with a box of text, sliding overlay from the top, bottom, left, and right, and zooming in at fullscreen. What I will be showing how to do for an image hover effect will be an overlay sliding from the top</p>
-                <p>First, what you will need to is </p>
-                <p>Secondly, </p>
-                <p>Thirdly, </p>
-                <p>Fourthly, </p>
-                <p>Fifthly, </p>
+                <p>First, what you will need to is import your image into the program you're using, along with making sure the image is at a good size and position in a CSS file you create separately. Afterwards, you will write for your HTML:</p>
+                <p>1. The first div tag that will be the container for your image (div class = "container") and its closing tag (/div)</p>
+                <p>2. The image tag where you will link your image, add an alt tag for alt text, and what class the image is, which in this case it would be (class = "image")</p>
+                <p>3. The second div tag that will be the overlay of the effect (div class = "overlay") and its closing tag (/div) that goes BEFORE the first div tag</p>
+                <p>4. The third div tag that will be for the text that appears on the overlay (div class = "text"), in the middle your desired text, and then the closing tag (/div) that goes on the same line</p>
+                <p>After you're done with your HTML, you will go back into your CSS file and style all of your class tags:</p>
+                <p>For the container, you will have (.container { position: relative; width: 50% }) to set up the dimension and position</p>
+                <p>For the image, you will have (.image { display: block; width: 100%; height: auto;}) to set up the dimension and position too</p>
+                <p>For the overlay, you will have (.overlay { position: absolute; bottom: 100%; left: 0; right: 0; background-color: (your preference); overflow: hidden; width: 100%; height: 0; transition: .5s ease;}) to get the effect of the overlay</p>
+                <p>For the conjunction of container with hover and overlay, you will have (.container:hover .overlay { bottom: 0; height: 100%;}) to get the size of the overlay so it covers your image fully</p>
+                <p>For text, you will have style it to your preferences, center the text and include (-webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);) as the transformations of several settings</p>
+                <p>Once you're done with your CSS, save all your work and head onto where you can see your sample page to check if the effect works. If it's working, you have just done a sliding overlay from the top effect for an image!
+                It should resemble similarly to mine at the bottom, but if your image is a bit bigger of course.</p>
+                <div class="container">
+                    <img src="img/avataaars.png" alt="My avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">My avatar!</div>
+                    </div>
+                </div>
             </div>
     </article>
 
