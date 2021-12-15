@@ -39,8 +39,6 @@ header {
     position: fixed;
     z-index: 999;
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
 }
 
 .nav-toggle {
@@ -174,8 +172,14 @@ such that no text wraps
         height: 5px;
         background: #02006E;
         position: absolute;
-        top:-.75em;
+        top: -.75em;
         left: 0;
         right: 0;
+        transform: scale(0,1);
+        transition: transform ease-in-out 250ms;
+    }
+
+    nav a:hover::before {
+        transform: scale(1,1);
     }
 }
