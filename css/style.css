@@ -4,54 +4,87 @@ body {
     color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
     font-family:"Quicksand";
-    font-size: 45pt;
+    font-size: 45px;
     text-align: center;
     padding-bottom: 10px;
 }
 
 h2 {
-    font-size: 35pt;
+    font-family: "Quicksand";
+    font-size: 35px;
+    text-align: center;
     padding-bottom: 3px;
     margin: .1em;
 }
 
-header {
+h3 {
+    font-family: "Quicksand";
+    font-size: 25px;
     text-align: center;
+}
+
+.navbar .logo-title {
+    font-size: 45px;
 }
 
 /* Introduction Section */
-#introduction, footer {
-    text-align: center;
-    text-decoration: underline;
-    background-color: #4547F5;
-    border: 5px solid #cf2b4f;
-    color: white;
-    padding: 10px;
-    overflow: auto;
+#introduction {
+    background-image: url(/img/mosaic-1920w.jpg);
+    color:#fff;
+    background-size: 100%;
+    background-position: 100%;
+    border: 6px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px #81CDFF;
+    padding: 0.5rem 0.5rem;
+    margin: 20px;
+}
+
+#introduction h1 {
+    margin: 5px;
+    background-color:#EDF4FF;
+    color: #000000;
+    border: 1px solid #000000;
+    white-space: normal;
+}
+
+#introduction h6 {
+    font-size: 18px;
+    margin: 5px;
+    background-color: #EDF4FF;
+    color: #000000;
+    border: 1px solid #000000;
+    white-space: normal;
 }
 
 #introduction img {
-    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
 }
 
-#introduction a:link{
-    color:beige;
-}
-
-#introduction a:hover {
-    color: lightgray;
-}
-
-#introduction a:visited {
-    color: white;
+#introduction figure {
+    overflow:auto;
 }
 
 /* Bio Section */
 #biography {
     text-align: center;
     font-size: 16px;
+    background-color: #6495ed;
+    border: 7px solid #02006E;
+    box-shadow: 6px 6px #C74C98;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#biography img {
+    border: 5px double #02006E;
 }
 
 /* Hobbies Section*/ 
@@ -59,9 +92,9 @@ header {
     font-style: italic;
     background-color:#81CDFF;
     border: 7px solid #1a4600;
+    box-shadow: 6px 6px #46A9FA;
     border-radius: 10px;
     margin-bottom: 20px;
-    
 }
 
 #hobbies ul {
@@ -71,44 +104,91 @@ header {
     margin: auto;
     font-size: 18px;
     text-decoration: underline; 
+    list-style: none;
+}
+
+#hobbies hr {
+    border: 1px dashed #000000;
+}
+
+#hobbies img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+}
+
+#hobbies p {
+    text-align: center;
+    font-size: 18px;
+    white-space: normal;
 }
 
 /* Gallery Section */
 #gallery {
+    align-items: center;
+    justify-items: center;
     background-color:#C74C98;
-    border: 5px solid #02006E;
-    border-radius: 5px; 
+    border: 6px solid #02006E;
+    border-radius: 10px; 
     box-shadow: 6px 6px #cf2b4f;
     margin-bottom: 20px;
 }
 
 #gallery figure {
-    text-align: center;
-    font-style: italic;
-    border: 5px solid #02006E;
-    border-radius: 4px;
     background-color: #8889FA;
     overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
-/* Literature Story Section */
-#literature {
-    background-color: #286903;
+#gallery figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.pictureframe {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+    background-color:#8889FA;
+}
+
+.fadein img{
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+.fadein img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+/* Blog Section */
+#blog {
+    background-color: #1a4600;
     color: #EDF4FF;
     border: 6px solid #02006E;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 6px 6px #fff;
     margin-bottom: 20px;
 }
 
-#literature div {
+#blog div {
     max-width: 580px;
     margin: 0 auto;
     font-weight: lighter;
-    border: 5px double #02006E;
+    border: 5px double #000000;
 }
 
-#literature div p:first-child::first-letter {
+#blog div p:first-child::first-letter {
     color:#02006E;
     background-image:radial-gradient(#fff, #4547F5);
     float: left;
@@ -123,6 +203,45 @@ header {
     border-bottom-right-radius: 0.2em;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0; 
+    background-color: #74a59b;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 /* Video Section */
 
 .videowrapper {
@@ -138,16 +257,17 @@ header {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 
 #myvideo figcaption {
     text-align: center;
-    margin-top: 10px;
-    border: 3px solid #02006E;
-    border-radius: 4px;
+    font-size: 26px;
+    border: 5px solid #02006E;
+    border-radius: 5px;
     background-color: #46A9FA;
+    height: 50px;
 }
 
 /* Contact Form Section */
@@ -160,7 +280,7 @@ header {
 }
 
 #contactform fieldset {
-    border: 2px solid black;
+    border: 2px solid #000000;
 }
 
 input[type=text] {
@@ -264,8 +384,9 @@ button[type=submit]:hover {
 }
 #contact div {
     background-color: #74a59b;
+    border: 5px solid #EDF4FF;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 3px white;
+    box-shadow: 6px 6px #1a4600;
 }
 
 #contact ul {
@@ -277,13 +398,32 @@ button[type=submit]:hover {
     margin: 20px;
 }
 
+/* Footer Section */
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #4547F5;
+    border: 6px solid #cf2b4f;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer a:link {
+    color:#fff;
+}
+
+footer a:visited{
+    color:#81CDFF;
+}
+
 /* Tablet Size Screen */
 @media screen and (min-width: 960px) {
     figure {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
-
+ 
     figcaption {
         display: flex;
         justify-content: center;
@@ -291,12 +431,13 @@ button[type=submit]:hover {
         font-size: 22px;
         margin-left: 1rem;
     }
-
+ 
     figure img {
         width: 100%;
     }
+ 
 
-    #literature div {
+    #blog div {
         max-width: 100%;
         columns: 20rem;
     }
@@ -305,7 +446,7 @@ button[type=submit]:hover {
 @media screen and (min-width: 100em) {
     #gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     hr {

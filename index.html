@@ -12,48 +12,76 @@
     <link href="/css/nav.css" rel="stylesheet">
 </head>
 <body>
-    
+
+<!-- Navigation Bar Section: Here is where I included my logo,
+title, and the links to the main sections of my website -->
 <header>    
-    <nav class="navbar">
         <div class="logo">
             <img src="img/PAZ-Logo.svg"
             class="logo-img" 
             alt="My initials as a logo"/>
             <h1 class="logo-title">Web Dev 1</h1>
         </div>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#biography" class="nav-links">Bio</a></li>
-                <li><a href="#gallery" class="nav-links">Gallery</a></li>
-                <li><a href="#literature" class="nav-links">Blog</a></li>
-                <li><a href="#contact" class="nav-links">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul>
+                    <li><a href="#biography" class="nav-links">Bio</a></li>
+                    <li><a href="#gallery" class="nav-links">Gallery</a></li>
+                    <li><a href="#literature" class="nav-links">Blog</a></li>
+                    <li><a href="#contact" class="nav-links">Contact Me</a></li>
+                </ul>
+            </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
 </header>
 
+<!-- Here is where we see that the main section of the website starts.
+To start, the introduction sections shows my full name, where I live, and a
+link to my Github profile for others to check it out. There also is an 
+avatar of myself to illustrate a fun and cute persona that resembles me. -->
 <main>
     <section id="introduction">
-    <img src="/img/avataaars.png" alt="My avatar picture!">
-        <div>
-            <p>Paola Ayala Zelaya</p>
-            <p>North Plainfield, NJ</p>
-            <p><a href="https://github.com/payalazelaya">Paola's
-            Github Profile!</a></p>
-        </div>
+        <figure>
+            <img src="img/intropicofme-640w.jpg" alt="Horizontal picture of me that I took
+            on my birthday">
+        </figure>
+        <h1>Paola Ayala Zelaya</h1>
+        <h6>North Plainfield, NJ</h6>
     </section>
 
+    <!-- Next, the biography section goes in depth with why I have an interest
+    for web development and how it changed my initial interest in computer
+    science. -->
     <section id="biography">
         <h2>Biography!</h2>
         <div>
-            <p>I want to be...</p>
-            <p>a web designer! Or even a web developer too.</p>
-            <p>While my previous career choice was to 
-            be a computer scientist</p>
-            <p>I see myself more like a web designer/developer instead!</p>
+            <img src="/img/bio-image-200w.jpg" alt="A picture of myself">
+            <p>Hello there, my name is Paola and I'm an aspiring web developer at RVCC.
+            My interest for web development started with a web design class that I took
+            in my freshman year of high school. This web design class introduced to me 
+            the basic concepts of HTML and CSS, along with some of the elements of
+            multimedia, such as text, image, and animation. My teacher made the lessons 
+            that we did each week interesting to learn about and we were able to incorporate
+            the topics that we learned into our assignments that we were assigned. I still 
+            remember how for our midterm and final exam, we had to do a practicum of mimicking a 
+            sample web page and being able to create our own web page from a topic of our choice. 
+            I always had fun doing the assignments that my teacher assigned to us, since they 
+            were always easy and straighforward to do, along with how they let us express our 
+            creativity too. Our boundary of sticking to the minimum was never there, so my teacher
+            let us to be free with what we would do, as long as it was school appropriate of course. </p>
+            <p>Before I made a choice of pursuing a major in web development, my initial thought
+            was to major in computer science, but even though I knew about the dilemma with how there
+            isn't enough women in the computer science field, I also passed that assumption along to how
+            there isn't enough women in web development either. The strive to change the current statistics 
+            of another demanding tech field is something that I wish to establish for myself and for other women
+            as well.</p>
         </div>
     </section>
 
+    <!-- Conveniently, the hobbies sections follow right after the biography section to get a 
+    glance of who I am as an individual. The list shows some of my hobbies that I've either done 
+    for a long time, a while now, or recently. -->
     <section id="hobbies">
         <h2>
             What Are My Hobbies?</h2>
@@ -61,59 +89,98 @@
             <li>Collect Stuffed Animals</li>
             <li>Draw Fanart</li>
             <li>Collect Merchandise</li>
+            <li>Listen to Music</li>
+            <li>Eat Desserts</li>
         </ul>
+        <hr> 
+        <img src="/img/dessert-360w.jpg" alt="A picture of strawberries and cream crepes
+        that I ate at iHOP.">
+        <p>The picture above shows a plate of strawberry and creme crepes
+        that I ate at iHOP while I was with my friends. The sweetness of it was 
+        perfect for my sweet tooth!</p>
     </section>
 
+    <!-- The photo gallery section displays images of 3 of my hobbies: collecting
+    stuffed animals, drawing fanart, and collecting merchandise. Captions are also added
+    to the images so that it describes what the image is all about. -->
     <section id="gallery">
         <h2>Photo Gallery!</h2>
         <hr>
-        <figure>
-            <img src="img/my-picture-640w.jpg" alt= "A picture of me with 
-            a dog plushie">
-            <figcaption>A picture of me with a small dog plushie</figcaption>
-        </figure> 
+        <div class="pictureframe">
+            <div class="fadein">
+                <figure>
+                    <img src="img/my-picture-640w.jpg" alt= "A picture of me with 
+                    a dog plushie" class="image">
+                    <figcaption>A picture of me with a small dog plushie</figcaption>
+                </figure>
+            </div>
+        </div>
         
-        <hr>
-        <figure>
-            <img src="/img/drawing-640w.jpg" alt="A drawing of an anime character 
-            from an anime">
-            <figcaption>A drawing of Kuroo, a character from one of
-             many hit anime, Haikyuu!!</figcaption>
-        </figure>
+        <div class="pictureframe">
+            <div class="fadein">
+                <figure>
+                    <img src="/img/drawing-640w.jpg" alt="A drawing of an anime character 
+                    from an anime" class="image">
+                    <figcaption>A drawing of Kuroo, a character from one of
+                    many hit anime, Haikyuu!!</figcaption>
+                </figure>
+            </div>
+        </div>
 
-        <hr>
-        <figure>
-            <img src="/img/nendoroid-640w.jpg" alt="A picture of a figurine of an 
-            anime character from an anime">
-            <figcaption>A picture of a Kuroo figurine, a character from
-            one of many hit anime, Haikyuu!!</figcaption>
-        </figure>
+        <div class="pictureframe">
+            <div class="fadein">
+                <figure>
+                    <img src="/img/nendoroid-640w.jpg" alt="A picture of a figurine of an 
+                    anime character from an anime" class="image">
+                    <figcaption>A picture of a Kuroo figurine, a character from
+                    one of many hit anime, Haikyuu!!</figcaption>
+                </figure>
+            </div>
+        </div>
     </section>
 
-    <article id="literature">
-        <h2>Excerpt from Dracula</h2>
+    <!-- In the blog section, it talks about how to create a basic image hover effect with CSS,
+    which in this case would be a sliding overlay that comes from the top of an image. -->
+    <article id="blog">
+        <h2>CSS Image Hover Effects</h2>
             <div>
-                <p>As, however, I got near the door, a new change came over the patient. He moved towards me so quickly that for the moment I feared that he was about to make another homicidal attack.
-                My fears, however, were groundless, for he held up his two hands imploringly, and made his petition in a moving manner. As he saw that the very excess of his emotion was militating against him, 
-                by restoring us more to our old relations, he became still more demonstrative. I glanced at Van Helsing, and saw my conviction reflected in his eyes; so I became a little more fixed in my manner, 
-                if not more stern, and motioned to him that his efforts were unavailing. 
-                I had previously seen something of the same constantly growing excitement in him when he had to make some request of which at the time he had thought much, such, for instance, as when he wanted a cat; 
-                and I was prepared to see the collapse into the same sullen acquiescence on this occasion. My expectation was not realised, for, when he found that his appeal would not be successful, he got into quite a frantic condition. 
-                He threw himself on his knees, and held up his hands, wringing them in plaintive supplication, and poured forth a torrent of entreaty, with the tears rolling down his cheeks, and his whole face and form expressive of the deepest emotion:--</p>
-                <p>"Let me entreat you, Dr. Seward, oh, let me implore you, to let me out of this house at once. Send me away how you will and where you will; send keepers with me with whips and chains; 
-                let them take me in a strait-waistcoat, manacled and leg-ironed, even to a gaol; but let me go out of this. You don't know what you do by keeping me here. 
-                I am speaking from the depths of my heart--of my very soul. You don't know whom you wrong, or how; and I may not tell. Woe is me! I may not tell. 
-                By all you hold sacred--by all you hold dear--by your love that is lost--by your hope that lives--for the sake of the Almighty, take me out of this and save my soul from guilt! 
-                Can't you hear me, man? Can't you understand? Will you never learn? Don't you know that I am sane and earnest now; that I am no lunatic in a mad fit, but a sane man fighting for his soul?
-                Oh, hear me! hear me! Let me go! let me go! let me go!"</p>
-                <p>I thought that the longer this went on the wilder he would get, and so would bring on a fit; so I took him by the hand and raised him up.</p>
-                <p>"Come," I said sternly, "no more of this; we have had quite enough already. Get to your bed and try to behave more discreetly."</p>
-                <p>He suddenly stopped and looked at me intently for several moments. Then, without a word, he rose and moving over, sat down on the side of the bed. 
-                The collapse had come, as on former occasion, just as I had expected.</p>
-                <p>When I was leaving the room, last of our party, he said to me in a quiet, well-bred voice:--</p>
+                <h3>Effect Will Not Work on Mobile!</h3>
+                <p>When it comes to image hover effects, they add visual effects to an image on a website. It also brings interactivity to the user in seeing what kind of effects there could be for an image.
+                This interactivity influences how a user is able to be engaged in a website and encourages their focus to explore what the website has to offer. At the same time, it lets the user
+                have some kind of fun experience in playing around with the image hover effect the image has in the website. Animations in general are fun to use when it comes to adding interactivity and visual 
+                appeal to a website, but a developer has to make sure that using too many animations can slow down a website heavily if it's used excessively nor properly. This is why image hover effects are a kind of 
+                animation that does not slow down a website excessively. Due to how its transition is only in a matter of seconds rather than a long period of time, it's why they're considered sharp and elegant to the eye. 
+                In addition, because of how image hover effects can happen in a matter of seconds, a developer could add as many as they want and the website will not slow down excessively, so it's definitely useful to incorporate
+                when the opportunity is present in a website. Also, the image hover effect does not clutter designs in that it would make the layout of an image be messy or disorganized either, which is very convenient and worry-free 
+                for a developer. There are numerous ways images, in general, can have effects to them, ranging from zooming in and outwards, having a blurry effect to it, and rotating in and out. For this blog, I will talk about some of the basic
+                image hover effects that are standard in websites. These image hover effects come in different ways on how to incorporate them into websites. The basic image hover effects most common in websites are fading in with text, 
+                fading in with a box of text, sliding overlay from the top, bottom, left, and right, and zooming in at fullscreen. What I will be showing how to do for an image hover effect will be an overlay sliding from the top</p>
+                <p>First, what you will need to is import your image into the program you're using, along with making sure the image is at a good size and position in a CSS file you create separately. Afterwards, you will write for your HTML:</p>
+                <p>1. The first div tag that will be the container for your image (div class = "container") and its closing tag (/div)</p>
+                <p>2. The image tag where you will link your image, add an alt tag for alt text, and what class the image is, which in this case it would be (class = "image")</p>
+                <p>3. The second div tag that will be the overlay of the effect (div class = "overlay") and its closing tag (/div) that goes BEFORE the first div tag</p>
+                <p>4. The third div tag that will be for the text that appears on the overlay (div class = "text"), in the middle your desired text, and then the closing tag (/div) that goes on the same line</p>
+                <p>After you're done with your HTML, you will go back into your CSS file and style all of your class tags:</p>
+                <p>For the container, you will have (.container { position: relative; width: 50% }) to set up the dimension and position</p>
+                <p>For the image, you will have (.image { display: block; width: 100%; height: auto;}) to set up the dimension and position too</p>
+                <p>For the overlay, you will have (.overlay { position: absolute; bottom: 100%; left: 0; right: 0; background-color: (your preference); overflow: hidden; width: 100%; height: 0; transition: .5s ease;}) to get the effect of the overlay</p>
+                <p>For the conjunction of container with hover and overlay, you will have (.container:hover .overlay { bottom: 0; height: 100%;}) to get the size of the overlay so it covers your image fully</p>
+                <p>For text, you will have style it to your preferences, center the text and include (-webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);) as the transformations of several settings</p>
+                <p>Once you're done with your CSS, save all your work and head onto where you can see your sample page to check if the effect works. If it's working, you have just done a sliding overlay from the top effect for an image!
+                It should resemble similarly to mine at the bottom, but if your image is a bit bigger of course.</p>
+                <div class="container">
+                    <img src="img/avataaars.png" alt="My avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">My avatar!</div>
+                    </div>
+                </div>
             </div>
     </article>
 
+    <!-- In the video section, there's a cute video of a mini slideshow featuring pictures
+    of cats along with an audio of cats meowing for entertainment on the user's part. The video
+    also has a caption to describe what it is about for the user to read before clicking to 
+    watch it -->
     <section id="myvideo">
         <h2>A Short Video</h2>
             <figure>
@@ -125,12 +192,16 @@
                     clipboard-write; encrypted-media; gyroscope; 
                     picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <figcaption> A short video of my favorite animal, cats!</figcaption>
+                <figcaption>A short video of my favorite animal, cats!</figcaption>
             </figure>
     </section>
 
+    <!-- The contact section features a form for the user to fill out if they wish to 
+    contact the owner of the website of the owner, but what it does in reality is collect 
+    the data that the user inputs and lets the owner of the website know that the form is 
+    functioning correctly. -->
     <section id="contact">
-        <h2>Contact Me!:</h2>
+        <h2>Contact Me!</h2>
           <div>
             <form id="contactform" name="contactform" method="post" data-netlify="true"> 
             <fieldset>
@@ -192,8 +263,14 @@
     </section>
 </main>
 
+<!-- In the footer section, it features the rights of the owner of the website and 
+social media links so the user can check them out -->
 <footer>
-    ©2021 - Paola Ayala Zelaya
+     ©2021 - Paola Ayala Zelaya
+    <div>
+        <a href="https://github.com/payalazelaya">Github</a>
+        <a href="https://www.instagram.com/paolaa.az/">Instagram</a>
+    </div>
 </footer>
 
 </body>
