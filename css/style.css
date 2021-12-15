@@ -115,6 +115,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
     border: 3px solid #000000;
 }
 
@@ -263,7 +264,7 @@ h3 {
 
 #myvideo figcaption {
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     border: 5px solid #02006E;
     border-radius: 5px;
     background-color: #46A9FA;
