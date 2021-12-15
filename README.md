@@ -53,6 +53,9 @@ My color scheme consists of these colors primarily:
 - [Mosaic Background](https://pixabay.com/images/id-3394375/)
 - [X Icon](https://www.iconfinder.com/icons/1110973/close_essential_set_x_icon)
 - [Hamburger Menu Icon](https://www.iconfinder.com/icons/134216/menu_lines_hamburger_icon)
+> Sources Used for the Blog Section
+- [WPDataTables](https://wpdatatables.com/css-image-hover-effects/)
+- [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp)
 ## License 
 Copyright © 2021 Paola Ayala Zelaya 
 
